@@ -1,0 +1,44 @@
+body { 
+  
+    background-color: #aed2dc; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+} 
+ 
+h1 { 
+    color: #b54848; 
+} 
+ 
+label { 
+    font-weight: bold; 
+    color: black;
+} 
+ 
+input[type="text"] { 
+    width: 100px; 
+    padding: 5px; 
+    margin: 5px 0; 
+    border: 1px solid #d5bcbc; 
+    border-radius: 4px; 
+} 
+ 
+button { 
+    padding: 15px 30px; 
+    background-color: plum; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+ 
+button:hover { 
+    background-color: plum; 
+} 
+ 
+p { 
+    font-size: 1.5em; 
+    color: #d3abab; 
+}
